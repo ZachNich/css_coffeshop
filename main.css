@@ -1,0 +1,31 @@
+body {
+    background-color: darkslategrey;
+    font-family: sans-serif;
+}
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    color: beige;
+    margin: 1em 0 1em 0;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.list { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    flex: 0 1 31%;
+    padding: 5px;
+    color: beige;
+    border: 2px solid beige;
+    margin: 3px 3px 3px 3px;
+}
+
+.shop:hover {
+    opacity: .4;
+}

@@ -1,12 +1,13 @@
 body {
-    background-color: darkslategrey;
+    background-color: rgb(59, 66, 75);
     font-family: sans-serif;
 }
 
 .pageHeader {
     display: flex;
     justify-content: center;
-    color: beige;
+    background-color: white;
+    color: rgb(59, 66, 75);
     margin: 1em 0 1em 0;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
@@ -20,12 +21,22 @@ body {
 
 .shop {
     flex: 0 1 31%;
+    text-align: center;
     padding: 5px;
-    color: beige;
-    border: 2px solid beige;
-    margin: 3px 3px 3px 3px;
+    color: white;
+    border: 2px solid white;
+    margin: 8px 3px 0 3px;
 }
 
 .shop:hover {
     opacity: .4;
+}
+
+.shop__address {
+    margin: 7px 0 3px 0;
+    font-variant-caps: small-caps;
+}
+
+.shop__phone {
+    font-style: italic;
 }

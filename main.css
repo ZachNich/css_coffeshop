@@ -6,9 +6,13 @@ body {
 .pageHeader {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
     background-color: white;
     color: rgb(59, 66, 75);
-    margin: 1em 0 1em 0;
+    margin: 1em auto 1em auto;
+    padding: 3px 60px 3px 60px;
+    border-radius: 25px;
+    width: fit-content;
     font-size: larger;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
@@ -28,15 +32,22 @@ body {
     margin: 8px 3px 0 3px;
 }
 
-.shop:hover {
-    opacity: .4;
+.shop__url:hover {
+    opacity: .9;
+    color: khaki;
+    border-color: khaki;
 }
 
 .shop__address {
-    margin: 7px 0 3px 0;
+    margin: 3px 0 3px 0;
     font-variant-caps: small-caps;
 }
 
 .shop__phone {
     font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
